@@ -11,6 +11,8 @@ body {
   display: block;
 }
 
+/* Header Section */
+
 .headercontainer {
   height: 30rem;
   color: white;
@@ -67,4 +69,53 @@ body {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
+}
+
+/* Main Section */
+
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.image {
+  height: 8rem;
+  padding: 3rem 0;
+}
+
+.gallery .image {
+  display: flex;
+  width: 5rem;
+  margin: 3rem;
+  flex-direction: column;
+}
+
+.image p {
+  display: flex;
+}
+
+.maintextcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer Section */
+
+.footercontainer {
+  display: flex;
+  background-color: azure;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.blacklogo {
+  padding: 4rem 1rem 4rem 4rem;
+  height: 1.5rem;
 }
